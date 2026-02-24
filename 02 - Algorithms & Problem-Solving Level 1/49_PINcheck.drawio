@@ -1,0 +1,65 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="oviTwChx6SZ33d-L0Gkm">
+    <mxGraphModel dx="1028" dy="681" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SZWxDEcN0tOOOSZp2jQy-1" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;" parent="1" source="SZWxDEcN0tOOOSZp2jQy-2" target="SZWxDEcN0tOOOSZp2jQy-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZWxDEcN0tOOOSZp2jQy-2" value="&amp;nbsp;Start&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;fillColor=#33FF33;strokeWidth=3;shadow=1;flipV=1;flipH=1;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="847.5" y="400" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SZWxDEcN0tOOOSZp2jQy-3" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF0000;strokeWidth=3;shadow=1;flipV=1;flipH=1;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="847.5" y="1460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SZWxDEcN0tOOOSZp2jQy-14" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;" parent="1" source="SZWxDEcN0tOOOSZp2jQy-5" target="SZWxDEcN0tOOOSZp2jQy-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZWxDEcN0tOOOSZp2jQy-5" value="&lt;div style=&quot;text-align: left; text-wrap-mode: nowrap; line-height: 170%;&quot;&gt;Read: PIN&amp;nbsp;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#B266FF;align=center;strokeWidth=3;shadow=1;flipV=1;flipH=1;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="682.5" y="620" width="410" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SZWxDEcN0tOOOSZp2jQy-8" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;strokeWidth=5;" parent="1" source="SZWxDEcN0tOOOSZp2jQy-9" target="SZWxDEcN0tOOOSZp2jQy-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZWxDEcN0tOOOSZp2jQy-9" value="&lt;div style=&quot;line-height: 170%;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;Print &quot;Your balance is: 7500&quot;&lt;/span&gt; &lt;br/&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#3333FF;strokeWidth=3;shadow=1;flipV=1;flipH=1;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="692.5" y="1220" width="390" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="SZWxDEcN0tOOOSZp2jQy-10" value="&lt;div style=&quot;line-height: 170%;&quot;&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 170%;&quot;&gt;#49&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/h1&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Write a program to read the ATM PIN from the&amp;nbsp; &amp;nbsp; &amp;nbsp;user, then check if&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&amp;nbsp;the PIN = 1234. If yes, show the balance to the&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;user. If no, print&lt;br&gt;&amp;nbsp;&quot;Wrong PIN&quot; and ask the user to enter it again&lt;/span&gt; &lt;br/&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=1;perimeterSpacing=5;strokeColor=default;strokeWidth=3;fillColor=#00047A;shadow=1;glass=0;" parent="1" vertex="1">
+          <mxGeometry x="270" y="560" width="280" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="SZWxDEcN0tOOOSZp2jQy-15" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;strokeWidth=5;" parent="1" source="SZWxDEcN0tOOOSZp2jQy-11" target="SZWxDEcN0tOOOSZp2jQy-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="887.5" y="1220.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZWxDEcN0tOOOSZp2jQy-16" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="SZWxDEcN0tOOOSZp2jQy-15" vertex="1" connectable="0">
+          <mxGeometry x="0.0111" y="2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZWxDEcN0tOOOSZp2jQy-18" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;elbow=vertical;flowAnimation=1;strokeWidth=5;" parent="1" source="SZWxDEcN0tOOOSZp2jQy-11" target="SZWxDEcN0tOOOSZp2jQy-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SZWxDEcN0tOOOSZp2jQy-19" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" parent="SZWxDEcN0tOOOSZp2jQy-18" vertex="1" connectable="0">
+          <mxGeometry x="-0.0222" y="7" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZWxDEcN0tOOOSZp2jQy-11" value="PIN = 1234" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FF8000;strokeWidth=3;shadow=1;" parent="1" vertex="1">
+          <mxGeometry x="778.75" y="870" width="217.5" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="SZWxDEcN0tOOOSZp2jQy-20" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;elbow=vertical;flowAnimation=1;strokeWidth=5;" parent="1" source="SZWxDEcN0tOOOSZp2jQy-17" target="SZWxDEcN0tOOOSZp2jQy-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1780" y="830" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SZWxDEcN0tOOOSZp2jQy-17" value="&lt;div style=&quot;line-height: 170%;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;Print &quot;Wrong PIN&quot;&lt;/span&gt;&lt;br&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#3333FF;strokeWidth=3;shadow=1;flipV=1;flipH=1;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="898.5" width="390" height="113" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

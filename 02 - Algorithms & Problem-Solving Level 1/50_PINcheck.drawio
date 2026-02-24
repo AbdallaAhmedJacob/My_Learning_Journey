@@ -1,0 +1,129 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="r_lBM7ZBPR-LwpeJW4zD">
+    <mxGraphModel dx="2456" dy="1362" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-1" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;startSize=8;endSize=8;strokeWidth=5;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="9ffG2_hZ5saPDTEPQJNc-2" target="9ffG2_hZ5saPDTEPQJNc-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="854" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-2" value="&amp;nbsp;Start&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;fillColor=#33FF33;strokeWidth=3;shadow=1;flipV=1;flipH=1;direction=west;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="813.5" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-3" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF0000;strokeWidth=3;shadow=1;flipV=1;flipH=1;direction=west;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="813.5" y="1640" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-4" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;startSize=8;endSize=8;strokeWidth=5;" parent="1" source="9ffG2_hZ5saPDTEPQJNc-5" target="9ffG2_hZ5saPDTEPQJNc-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-26" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;startSize=8;endSize=8;strokeWidth=5;" parent="1" source="9ffG2_hZ5saPDTEPQJNc-7" target="9ffG2_hZ5saPDTEPQJNc-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-7" value="&lt;div style=&quot;text-align: left; line-height: 170%;&quot;&gt;Counter = 0&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#67AB9F;strokeWidth=3;shadow=1;flipV=1;flipH=1;direction=west;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="703.5" y="390" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;startSize=8;endSize=8;strokeWidth=5;" parent="1" source="9ffG2_hZ5saPDTEPQJNc-9" target="9ffG2_hZ5saPDTEPQJNc-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="375" y="1680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-9" value="&lt;div style=&quot;line-height: 170%;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;Print &quot;Your Balance&lt;br&gt;is: &quot; + Balance&lt;/span&gt; &lt;br&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#3333FF;strokeWidth=3;shadow=1;flipV=1;flipH=1;direction=west;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="180" y="1282" width="390" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-10" value="&lt;div style=&quot;line-height: 170%;&quot;&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 170%;&quot;&gt;&amp;nbsp;#50&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/h1&gt;&lt;div&gt;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Write a program to read the ATM PIN from the user, then&amp;nbsp; &amp;nbsp;check if&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&amp;nbsp; the PIN = 1234. If yes, show the balance to the user. If no,&amp;nbsp; &amp;nbsp; &amp;nbsp;print&lt;br&gt;&amp;nbsp;&quot;Wrong PIN&quot; and ask the user to enter it again. Allow only 3&lt;br&gt;&amp;nbsp;attempts. After 3 failed attempts, print &quot;Card Locked&quot;.&lt;br&gt;&amp;nbsp;Assume the balance is &quot;7500&quot;.&lt;/span&gt; &lt;br&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=1;perimeterSpacing=5;strokeColor=default;strokeWidth=3;fillColor=#00047A;shadow=1;glass=0;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="240" width="556" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;startSize=8;endSize=8;strokeWidth=5;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="9ffG2_hZ5saPDTEPQJNc-15" target="9ffG2_hZ5saPDTEPQJNc-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="895" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-12" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="9ffG2_hZ5saPDTEPQJNc-11" vertex="1" connectable="0">
+          <mxGeometry x="0.0111" y="2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-29" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;startSize=8;endSize=8;strokeWidth=5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="9ffG2_hZ5saPDTEPQJNc-15" target="9ffG2_hZ5saPDTEPQJNc-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="854" y="990" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-38" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="9ffG2_hZ5saPDTEPQJNc-29" vertex="1" connectable="0">
+          <mxGeometry x="-0.0695" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-15" value="PIN = 1234" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FF8000;strokeWidth=3;shadow=1;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="744.75" y="800" width="217.5" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-30" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;startSize=8;endSize=8;strokeWidth=5;" parent="1" source="9ffG2_hZ5saPDTEPQJNc-17" target="9ffG2_hZ5saPDTEPQJNc-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-40" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;startSize=8;endSize=8;strokeWidth=5;" parent="1" source="9ffG2_hZ5saPDTEPQJNc-17" target="9ffG2_hZ5saPDTEPQJNc-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-17" value="&lt;div style=&quot;line-height: 170%;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;Print &quot;Wrong PIN&quot;&lt;/span&gt;&lt;br&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#3333FF;strokeWidth=3;shadow=1;flipV=1;flipH=1;direction=west;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="658.5" y="1042.73" width="390" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-20" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=20;startSize=8;endSize=8;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=5;" parent="1" source="9ffG2_hZ5saPDTEPQJNc-18" target="9ffG2_hZ5saPDTEPQJNc-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-33" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="9ffG2_hZ5saPDTEPQJNc-20" vertex="1" connectable="0">
+          <mxGeometry x="-0.0165" y="-5" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;startSize=8;endSize=8;strokeWidth=5;" parent="1" source="9ffG2_hZ5saPDTEPQJNc-18" target="9ffG2_hZ5saPDTEPQJNc-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1670" y="1338" />
+              <mxPoint x="1670" y="650" />
+              <mxPoint x="1048" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-42" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" parent="9ffG2_hZ5saPDTEPQJNc-32" vertex="1" connectable="0">
+          <mxGeometry x="-0.8281" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-18" value="&lt;span class=&quot;fontstyle0&quot;&gt;FailedCounter&amp;nbsp;&lt;/span&gt;= 3" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FF8000;strokeWidth=3;shadow=1;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="1253.5" width="217.5" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;startSize=8;endSize=8;strokeWidth=5;" parent="1" source="9ffG2_hZ5saPDTEPQJNc-23" target="9ffG2_hZ5saPDTEPQJNc-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-23" value="&lt;div style=&quot;text-align: left; line-height: 170%;&quot;&gt;&lt;table class=&quot;NormalTable&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width=&quot;217&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;FailedCounter = FailedCount + 1&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#67AB9F;strokeWidth=3;shadow=1;flipV=1;flipH=1;direction=west;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1178.75" y="1064.23" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-5" value="&lt;div style=&quot;text-align: left; text-wrap-mode: nowrap; line-height: 170%;&quot;&gt;Read: PIN&amp;nbsp;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#B266FF;align=center;strokeWidth=3;shadow=1;flipV=1;flipH=1;direction=west;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="648.5" y="600" width="410" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-28" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=20;startSize=8;endSize=8;strokeWidth=5;" parent="1" source="9ffG2_hZ5saPDTEPQJNc-27" target="9ffG2_hZ5saPDTEPQJNc-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-27" value="&lt;table class=&quot;NormalTable&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td width=&quot;146&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;Balance = 7500&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="whiteSpace=wrap;html=1;fillColor=#67AB9F;strokeWidth=3;shadow=1;flipV=1;flipH=1;direction=west;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="225" y="850" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-36" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=20;startSize=8;endSize=8;strokeWidth=5;" parent="1" source="9ffG2_hZ5saPDTEPQJNc-35" target="9ffG2_hZ5saPDTEPQJNc-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-35" value="&lt;span class=&quot;fontstyle0&quot;&gt;Print &quot;Card Locked&quot;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#3333FF;strokeWidth=3;shadow=1;flipV=1;flipH=1;direction=west;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="1133.75" y="1623.5" width="390" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-44" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="9ffG2_hZ5saPDTEPQJNc-39" target="9ffG2_hZ5saPDTEPQJNc-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9ffG2_hZ5saPDTEPQJNc-39" value="&lt;div style=&quot;line-height: 170%;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;Print &quot;Wrong PIN&quot;&lt;/span&gt;&lt;br&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; line-height: normal; text-align: -webkit-auto; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#3333FF;strokeWidth=3;shadow=1;flipV=1;flipH=1;direction=west;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="658.5" y="1282" width="390" height="113" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

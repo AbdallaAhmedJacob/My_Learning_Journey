@@ -1,0 +1,42 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="zQdvqj16L2B_OT1-plQG">
+    <mxGraphModel dx="1028" dy="681" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aRHQ9bez_UHarRwebbbo-8" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="aRHQ9bez_UHarRwebbbo-1" target="aRHQ9bez_UHarRwebbbo-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRHQ9bez_UHarRwebbbo-1" value="&amp;nbsp;Start&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;fillColor=#33FF33;strokeWidth=3;shadow=1;flipV=1;flipH=1;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="767.5" y="220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aRHQ9bez_UHarRwebbbo-2" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF0000;strokeWidth=3;shadow=1;flipV=1;flipH=1;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="767.5" y="1330" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aRHQ9bez_UHarRwebbbo-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="aRHQ9bez_UHarRwebbbo-3" target="aRHQ9bez_UHarRwebbbo-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aRHQ9bez_UHarRwebbbo-3" value="&lt;div style=&quot;text-align: left; text-wrap-mode: nowrap; line-height: 170%;&quot;&gt;&lt;span class=&quot;fontstyle0&quot;&gt;Reed LoanAmount&lt;br&gt;, Monthinstallment&lt;/span&gt; &lt;br/&gt;&lt;br style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; font-variant-emoji: normal; line-height: normal; text-align: -webkit-auto; text-wrap-mode: wrap; text-size-adjust: auto;&quot;&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#B266FF;align=center;strokeWidth=3;shadow=1;flipV=1;flipH=1;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="602.5" y="440" width="410" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="aRHQ9bez_UHarRwebbbo-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="aRHQ9bez_UHarRwebbbo-4" target="aRHQ9bez_UHarRwebbbo-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRHQ9bez_UHarRwebbbo-4" value="&lt;div style=&quot;line-height: 170%;&quot;&gt;&lt;span style=&quot;text-align: left;&quot;&gt;TotalMonths =&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;LonAmount&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;/&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;Monthinstallment&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#67AB9F;strokeWidth=3;shadow=1;flipV=1;flipH=1;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="533.75" y="740" width="547.5" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="aRHQ9bez_UHarRwebbbo-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="1" source="aRHQ9bez_UHarRwebbbo-5" target="aRHQ9bez_UHarRwebbbo-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aRHQ9bez_UHarRwebbbo-5" value="&lt;div style=&quot;line-height: 170%;&quot;&gt;Print:&amp;nbsp;&lt;span style=&quot;text-align: left; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;TotalMonths&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ &quot;Months&quot;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: left;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#3333FF;strokeWidth=3;shadow=1;flipV=1;flipH=1;direction=west;" parent="1" vertex="1">
+          <mxGeometry x="612.5" y="1070" width="390" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="aRHQ9bez_UHarRwebbbo-6" value="&lt;div style=&quot;line-height: 170%;&quot;&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 170%;&quot;&gt;#47&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/h1&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Write a program to read the loan amount and&amp;nbsp; &amp;nbsp; &amp;nbsp;monthly&lt;/span&gt;&lt;/div&gt;&lt;span class=&quot;fontstyle0&quot;&gt;&amp;nbsp;payment, and calculate the number of months&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;needed.&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=1;perimeterSpacing=5;strokeColor=default;strokeWidth=3;fillColor=#00047A;shadow=1;glass=0;" parent="1" vertex="1">
+          <mxGeometry x="190" y="380" width="280" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

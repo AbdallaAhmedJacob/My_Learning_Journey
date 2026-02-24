@@ -1,0 +1,86 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="khpvRpRZndEy1E4O51xd">
+    <mxGraphModel dx="1428" dy="681" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iNPpxpmAVpF30QaMgrHK-3" target="iNPpxpmAVpF30QaMgrHK-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-3" value="Start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#00FF00;" parent="1" vertex="1">
+          <mxGeometry x="40" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iNPpxpmAVpF30QaMgrHK-5" target="iNPpxpmAVpF30QaMgrHK-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-5" value="sum =&lt;div&gt;num1 + num2 + num3&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF8000;" parent="1" vertex="1">
+          <mxGeometry x="280" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iNPpxpmAVpF30QaMgrHK-7" target="iNPpxpmAVpF30QaMgrHK-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-7" value="Print: sum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="280" y="452" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iNPpxpmAVpF30QaMgrHK-9" target="iNPpxpmAVpF30QaMgrHK-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-9" value="Read:&amp;nbsp;&lt;div&gt;num1,&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;num2, num3&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#B266FF;" parent="1" vertex="1">
+          <mxGeometry x="20" y="320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iNPpxpmAVpF30QaMgrHK-11" target="iNPpxpmAVpF30QaMgrHK-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-11" value="Avg = sum / 3" style="whiteSpace=wrap;html=1;strokeColor=#FF8000;fillColor=#FF8000;" parent="1" vertex="1">
+          <mxGeometry x="40" y="452" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iNPpxpmAVpF30QaMgrHK-13" target="iNPpxpmAVpF30QaMgrHK-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-13" value="Print: Avg" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="-190" y="452" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-14" value="End" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF3333;" parent="1" vertex="1">
+          <mxGeometry x="340" y="670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iNPpxpmAVpF30QaMgrHK-17" target="iNPpxpmAVpF30QaMgrHK-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="iNPpxpmAVpF30QaMgrHK-17" target="iNPpxpmAVpF30QaMgrHK-19" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-130" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-17" value="Avg &amp;gt;= 50" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FF6666;" parent="1" vertex="1">
+          <mxGeometry x="-170" y="552" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="iNPpxpmAVpF30QaMgrHK-19" target="iNPpxpmAVpF30QaMgrHK-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-19" value="Print: &quot;Fail&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="780" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="iNPpxpmAVpF30QaMgrHK-20" target="iNPpxpmAVpF30QaMgrHK-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-20" value="Print: &quot;PAAS&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+          <mxGeometry x="-30" y="562" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="iNPpxpmAVpF30QaMgrHK-22" target="iNPpxpmAVpF30QaMgrHK-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-22" value="" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="190" y="670" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-29" value="Yas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-80" y="552" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iNPpxpmAVpF30QaMgrHK-30" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-140" y="648" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
