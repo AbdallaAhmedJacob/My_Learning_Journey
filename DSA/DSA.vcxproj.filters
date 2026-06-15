@@ -26,5 +26,8 @@
     <ClInclude Include="clsMyQueArr.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="clsMystackArr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

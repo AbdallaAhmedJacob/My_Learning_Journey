@@ -1,7 +1,7 @@
 #include <iostream>
 #include "clsDynamicArray.h"
 #include "clsMyQueArr.h"
-
+#include "clsMystackArr.h"
 
 void DynamicArray()
 {
@@ -80,7 +80,7 @@ void MyQueArr()
     que1.push(5);
 
     std::cout << "\n==================================================\n";
-    std::cout << "       My Queue";
+    std::cout << "       My Queue Arr";
     std::cout << "\n==================================================\n";
     que1.Print();
     std::cout << "\n--------------------\n";
@@ -123,10 +123,64 @@ void MyQueArr()
     std::cout << "\n--------------------\n";
 
 }
+void MyStackArr()
+{
+    clsMyStackArr <int> stk1;
+
+    stk1.push(1);
+    stk1.push(2);
+    stk1.push(3);
+    stk1.push(4);
+    stk1.push(5);
+
+    std::cout << "\n==================================================\n";
+    std::cout << "       My Stack Arr";
+    std::cout << "\n==================================================\n";
+    stk1.Print();
+    std::cout << "\n--------------------\n";
+    std::cout << "Size is [" << stk1.Size() << "]";
+    std::cout << "\n--------------------\n";
+    std::cout << "Is empty [" << stk1.IsEmpty() << "]";
+    std::cout << "\n--------------------\n";
+
+    std::cout << "\n--------------------\n";
+    std::cout << "Top is " << stk1.Top();
+    std::cout << "\nBottom is " << stk1.Bottom();
+    std::cout << "\n--------------------\n";
+
+    std::cout << "The item in index 3 is [" << stk1.GetItem(3) << "]";
+    std::cout << "\n--------------------\n";
+
+    stk1.push(6);
+    std::cout << "The Stack after push         : "; stk1.Print();
+    stk1.pop();
+    std::cout << "The Stack after pop          : "; stk1.Print();
+
+    stk1.push(7);
+    std::cout << "The Stack after push         : "; stk1.Print();
+
+    stk1.pop();
+    std::cout << "The Stack after pop          : "; stk1.Print();
+
+    stk1.InsertAfter(2, 8);
+    std::cout << "The Stack after insert after index 2: "; stk1.Print();
+
+    stk1.InsertAtFront(9);
+    std::cout << "The Stack after insert at front: "; stk1.Print();
+
+    stk1.InsertAtBack(10);
+    std::cout << "\nThe Stack after insert at back: "; stk1.Print();
+
+    std::cout << "\n--------------------\n";
+    stk1.Reverse();
+    std::cout << "The Stack after revese              : "; stk1.Print();
+    std::cout << "\n--------------------\n";
+}
 
 int main()
 {
     //DynamicArray();
-    MyQueArr();
+    //MyQueArr();
+    MyStackArr();
 
 }
