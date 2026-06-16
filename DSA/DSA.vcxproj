@@ -126,6 +126,7 @@
     <ClCompile Include="DSA.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="clsDblLinkedList.h" />
     <ClInclude Include="clsDynamicArray.h" />
     <ClInclude Include="clsMyQueArr.h" />
     <ClInclude Include="clsMystackArr.h" />

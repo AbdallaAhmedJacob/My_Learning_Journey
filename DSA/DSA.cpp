@@ -2,6 +2,7 @@
 #include "clsDynamicArray.h"
 #include "clsMyQueArr.h"
 #include "clsMystackArr.h"
+#include "clsDblLinkedList.h"
 
 void DynamicArray()
 {
@@ -176,11 +177,79 @@ void MyStackArr()
     std::cout << "The Stack after revese              : "; stk1.Print();
     std::cout << "\n--------------------\n";
 }
+void TestDblLinkedList()
+{
+    clsDblLinkedList<int> list1;
 
+    list1.InsertAtBiginig(3);
+    list1.InsertAtBiginig(2);
+    list1.InsertAtBiginig(1);
+    list1.InsertAtEnd(4);
+    list1.InsertAtEnd(5);
+
+    std::cout << "\n==================================================\n";
+    std::cout << "        My Doubly Linked List Test";
+    std::cout << "\n==================================================\n";
+    std::cout << "Initial List Contents:\n";
+    list1.Print();
+
+    std::cout << "\n--------------------\n";
+    std::cout << "Size is [" << list1.Size() << "]";
+    std::cout << "\n--------------------\n";
+    std::cout << "Is empty [" << (list1.IsEmpty() ? "True" : "False") << "]";
+    std::cout << "\n--------------------\n";
+
+    std::cout << "The item at index 3 is [" << list1.GetItem(3) << "]";
+    std::cout << "\n--------------------\n";
+
+    list1.UpdateItem(3, 40);
+    std::cout << "After updating index 3 to 40:\n";
+    list1.Print();
+    std::cout << "\n--------------------\n";
+
+    list1.InsertAfter(2, 8);
+    std::cout << "After inserting 8 after index 2:\n";
+    list1.Print();
+    std::cout << "\n--------------------\n";
+
+    std::cout << "Searching for value 40... ";
+    if (list1.Find(40) != NULL)
+        std::cout << "Found!\n";
+    else
+        std::cout << "Not Found!\n";
+    std::cout << "--------------------\n";
+
+    list1.DeleteFirstNode();
+    std::cout << "After deleting first node:\n";
+    list1.Print();
+    std::cout << "\n--------------------\n";
+
+    list1.DeleteLastNode();
+    std::cout << "After deleting last node:\n";
+    list1.Print();
+    std::cout << "\n--------------------\n";
+
+    list1.DeleteNode(8);
+    std::cout << "After deleting node with value 8:\n";
+    list1.Print();
+    std::cout << "\n--------------------\n";
+
+    std::cout << "After reversing the list:\n";
+    list1.Reverse();
+    list1.Print();
+    std::cout << "\n--------------------\n";
+
+    list1.Clear();
+    std::cout << "After clearing the list:\n";
+    std::cout << "Size is [" << list1.Size() << "]\n";
+    std::cout << "Is empty [" << (list1.IsEmpty() ? "True" : "False") << "]\n";
+    std::cout << "==================================================\n";
+}
 int main()
 {
     //DynamicArray();
     //MyQueArr();
-    MyStackArr();
+    //MyStackArr();
+    TestDblLinkedList();
 
 }

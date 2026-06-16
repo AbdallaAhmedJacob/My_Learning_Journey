@@ -29,5 +29,8 @@
     <ClInclude Include="clsMystackArr.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="clsDblLinkedList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
