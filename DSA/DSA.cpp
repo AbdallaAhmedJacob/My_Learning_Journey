@@ -3,6 +3,7 @@
 #include "clsMyQueArr.h"
 #include "clsMystackArr.h"
 #include "clsDblLinkedList.h"
+#include "clsMyQue.h"
 
 void DynamicArray()
 {
@@ -245,11 +246,59 @@ void TestDblLinkedList()
     std::cout << "Is empty [" << (list1.IsEmpty() ? "True" : "False") << "]\n";
     std::cout << "==================================================\n";
 }
+void TestMyQueue()
+{
+    clsMyQue<int> que1;
+
+    que1.push(1);
+    que1.push(2);
+    que1.push(3);
+    que1.push(4);
+    que1.push(5);
+
+    std::cout << "\n==================================================\n";
+    std::cout << "              My Queue Test";
+    std::cout << "\n==================================================\n";
+    std::cout << "Initial List Contents:\n";
+    que1.Print();
+
+    std::cout << "\n--------------------\n";
+    std::cout << "Size is [" << que1.Size() << "]";
+    std::cout << "\n--------------------\n";
+    std::cout << "Is empty [" << (que1.IsEmpty() ? "True" : "False") << "]";
+    std::cout << "\n--------------------\n";
+
+    std::cout << "The item at index 3 is [" << que1.GetItem(3) << "]";
+    std::cout << "\n--------------------\n";
+
+    que1.UpdateItem(3, 40);
+    std::cout << "After updating index 3 to 40:\n";
+    que1.Print();
+    std::cout << "\n--------------------\n";
+
+    que1.InsertAfter(2, 8);
+    std::cout << "After inserting 8 after index 2:\n";
+    que1.Print();
+    std::cout << "\n--------------------\n";
+
+    std::cout << "After reversing the list:\n";
+    que1.Reverse();
+    que1.Print();
+    std::cout << "\n--------------------\n";
+
+    que1.Clear();
+    std::cout << "After clearing the list:\n";
+    std::cout << "Size is [" << que1.Size() << "]\n";
+    std::cout << "Is empty [" << (que1.IsEmpty() ? "True" : "False") << "]\n";
+    std::cout << "==================================================\n";
+}
+
 int main()
 {
     //DynamicArray();
     //MyQueArr();
     //MyStackArr();
-    TestDblLinkedList();
+    //TestDblLinkedList();
+    TestMyQueue();
 
 }
