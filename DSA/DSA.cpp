@@ -4,6 +4,7 @@
 #include "clsMystackArr.h"
 #include "clsDblLinkedList.h"
 #include "clsMyQue.h"
+#include "clsMystack.h"
 
 void DynamicArray()
 {
@@ -292,13 +293,59 @@ void TestMyQueue()
     std::cout << "Is empty [" << (que1.IsEmpty() ? "True" : "False") << "]\n";
     std::cout << "==================================================\n";
 }
+void TestMyStack()
+{
+    clsMyStack<int> stk1;
+
+    stk1.push(1);
+    stk1.push(2);
+    stk1.push(3);
+    stk1.push(4);
+    stk1.push(5);
+
+    std::cout << "\n==================================================\n";
+    std::cout << "              My Stack Test";
+    std::cout << "\n==================================================\n";
+    std::cout << "Initial List Contents:\n";
+    stk1.Print();
+
+    std::cout << "\n--------------------\n";
+    std::cout << "Size is [" << stk1.Size() << "]";
+    std::cout << "\n--------------------\n";
+    std::cout << "Is empty [" << (stk1.IsEmpty() ? "True" : "False") << "]";
+    std::cout << "\n--------------------\n";
+
+    std::cout << "The item at index 3 is [" << stk1.GetItem(3) << "]";
+    std::cout << "\n--------------------\n";
+
+    stk1.UpdateItem(3, 40);
+    std::cout << "After updating index 3 to 40:\n";
+    stk1.Print();
+    std::cout << "\n--------------------\n";
+
+    stk1.InsertAfter(2, 8);
+    std::cout << "After inserting 8 after index 2:\n";
+    stk1.Print();
+    std::cout << "\n--------------------\n";
+
+    std::cout << "After reversing the list:\n";
+    stk1.Reverse();
+    stk1.Print();
+    std::cout << "\n--------------------\n";
+
+    stk1.Clear();
+    std::cout << "After clearing the list:\n";
+    std::cout << "Size is [" << stk1.Size() << "]\n";
+    std::cout << "Is empty [" << (stk1.IsEmpty() ? "True" : "False") << "]\n";
+    std::cout << "==================================================\n";
+}
 
 int main()
 {
-    //DynamicArray();
-    //MyQueArr();
-    //MyStackArr();
-    //TestDblLinkedList();
+    DynamicArray();
+    MyQueArr();
+    MyStackArr();
+    TestDblLinkedList();
     TestMyQueue();
-
+    TestMyStack();
 }

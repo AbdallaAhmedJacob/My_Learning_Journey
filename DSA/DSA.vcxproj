@@ -131,6 +131,7 @@
     <ClInclude Include="clsMyQue.h" />
     <ClInclude Include="clsMyQueArr.h" />
     <ClInclude Include="clsMystackArr.h" />
+    <ClInclude Include="clsMyStack.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
