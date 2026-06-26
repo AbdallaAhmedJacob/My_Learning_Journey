@@ -16,5 +16,34 @@ namespace WindowsForms
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form frm1 = new Form();
+
+            Button btn1 = new Button();
+            btn1.Size = new Size(150, 50);
+            btn1.Location = new Point(100, 100);
+            btn1.Text = "Show Dialog Form...";
+            btn1.Click += new EventHandler(btn1_Click);
+
+            frm1.Show();
+
+            frm1.Controls.Add(btn1);
+        }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            Form frmDailog = new Form();
+
+            Label label1 = new Label();
+            label1.Size = new Size(255, 255);
+            label1.Location = new Point(100, 100);
+            label1.Text = "Hi, this is Dailog form :)";
+
+            frmDailog.Controls.Add(label1);
+
+            frmDailog.ShowDialog();
+        }
     }
 }
