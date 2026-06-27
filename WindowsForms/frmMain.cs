@@ -42,8 +42,15 @@ namespace WindowsForms
             label1.Text = "Hi, this is Dailog form :)";
 
             frmDailog.Controls.Add(label1);
-
+            
             frmDailog.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form frm = new frmMessageBox();
+
+            frm.ShowDialog();
         }
     }
 }
