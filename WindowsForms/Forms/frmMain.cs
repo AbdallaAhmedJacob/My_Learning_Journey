@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WindowsForms.Forms;
 
 namespace WindowsForms
 {
@@ -51,6 +52,13 @@ namespace WindowsForms
             Form frm = new frmMessageBox();
 
             frm.ShowDialog();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form frmLabel = new frmLable();
+
+            frmLabel.ShowDialog();
         }
     }
 }

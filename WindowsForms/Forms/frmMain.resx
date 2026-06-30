@@ -195,6 +195,9 @@
   <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
     <value>39</value>
   </data>
+  <data name="button4.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="button4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -221,6 +224,9 @@
   </data>
   <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
     <value>38</value>
+  </data>
+  <data name="button5.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="button5.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -249,6 +255,9 @@
   <data name="&gt;&gt;button5.ZOrder" xml:space="preserve">
     <value>37</value>
   </data>
+  <data name="button6.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="button6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -275,6 +284,9 @@
   </data>
   <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
     <value>36</value>
+  </data>
+  <data name="button7.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="button7.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -303,6 +315,9 @@
   <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
     <value>35</value>
   </data>
+  <data name="button8.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="button8.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -329,6 +344,9 @@
   </data>
   <data name="&gt;&gt;button8.ZOrder" xml:space="preserve">
     <value>34</value>
+  </data>
+  <data name="button9.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="button9.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -357,6 +375,9 @@
   <data name="&gt;&gt;button9.ZOrder" xml:space="preserve">
     <value>33</value>
   </data>
+  <data name="button10.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="button10.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -383,6 +404,9 @@
   </data>
   <data name="&gt;&gt;button10.ZOrder" xml:space="preserve">
     <value>32</value>
+  </data>
+  <data name="button11.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="button11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -411,6 +435,9 @@
   <data name="&gt;&gt;button11.ZOrder" xml:space="preserve">
     <value>31</value>
   </data>
+  <data name="button12.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="button12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -437,6 +464,9 @@
   </data>
   <data name="&gt;&gt;button12.ZOrder" xml:space="preserve">
     <value>30</value>
+  </data>
+  <data name="button13.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="button13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -465,6 +495,9 @@
   <data name="&gt;&gt;button13.ZOrder" xml:space="preserve">
     <value>29</value>
   </data>
+  <data name="button14.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="button14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -491,6 +524,9 @@
   </data>
   <data name="&gt;&gt;button14.ZOrder" xml:space="preserve">
     <value>28</value>
+  </data>
+  <data name="button15.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="button15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -519,6 +555,9 @@
   <data name="&gt;&gt;button15.ZOrder" xml:space="preserve">
     <value>27</value>
   </data>
+  <data name="button16.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="button16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -545,6 +584,9 @@
   </data>
   <data name="&gt;&gt;button16.ZOrder" xml:space="preserve">
     <value>26</value>
+  </data>
+  <data name="button17.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="button17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -573,6 +615,9 @@
   <data name="&gt;&gt;button17.ZOrder" xml:space="preserve">
     <value>25</value>
   </data>
+  <data name="button18.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="button18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -599,6 +644,9 @@
   </data>
   <data name="&gt;&gt;button18.ZOrder" xml:space="preserve">
     <value>24</value>
+  </data>
+  <data name="button19.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="button19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -627,6 +675,9 @@
   <data name="&gt;&gt;button19.ZOrder" xml:space="preserve">
     <value>23</value>
   </data>
+  <data name="button20.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="button20.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -653,6 +704,9 @@
   </data>
   <data name="&gt;&gt;button20.ZOrder" xml:space="preserve">
     <value>22</value>
+  </data>
+  <data name="button21.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="button21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -681,6 +735,9 @@
   <data name="&gt;&gt;button21.ZOrder" xml:space="preserve">
     <value>21</value>
   </data>
+  <data name="button22.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="button22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -707,6 +764,9 @@
   </data>
   <data name="&gt;&gt;button22.ZOrder" xml:space="preserve">
     <value>20</value>
+  </data>
+  <data name="button23.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="button23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -735,6 +795,9 @@
   <data name="&gt;&gt;button23.ZOrder" xml:space="preserve">
     <value>19</value>
   </data>
+  <data name="button24.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="button24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -761,6 +824,9 @@
   </data>
   <data name="&gt;&gt;button24.ZOrder" xml:space="preserve">
     <value>18</value>
+  </data>
+  <data name="button25.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="button25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -789,6 +855,9 @@
   <data name="&gt;&gt;button25.ZOrder" xml:space="preserve">
     <value>17</value>
   </data>
+  <data name="button26.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="button26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -815,6 +884,9 @@
   </data>
   <data name="&gt;&gt;button26.ZOrder" xml:space="preserve">
     <value>16</value>
+  </data>
+  <data name="button27.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="button27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -843,6 +915,9 @@
   <data name="&gt;&gt;button27.ZOrder" xml:space="preserve">
     <value>15</value>
   </data>
+  <data name="button28.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="button28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -869,6 +944,9 @@
   </data>
   <data name="&gt;&gt;button28.ZOrder" xml:space="preserve">
     <value>14</value>
+  </data>
+  <data name="button29.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="button29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -897,6 +975,9 @@
   <data name="&gt;&gt;button29.ZOrder" xml:space="preserve">
     <value>13</value>
   </data>
+  <data name="button30.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="button30.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -923,6 +1004,9 @@
   </data>
   <data name="&gt;&gt;button30.ZOrder" xml:space="preserve">
     <value>12</value>
+  </data>
+  <data name="button31.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="button31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -951,6 +1035,9 @@
   <data name="&gt;&gt;button31.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="button32.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="button32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -977,6 +1064,9 @@
   </data>
   <data name="&gt;&gt;button32.ZOrder" xml:space="preserve">
     <value>7</value>
+  </data>
+  <data name="button33.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="button33.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1005,6 +1095,9 @@
   <data name="&gt;&gt;button33.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
+  <data name="button34.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="button34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1031,6 +1124,9 @@
   </data>
   <data name="&gt;&gt;button34.ZOrder" xml:space="preserve">
     <value>9</value>
+  </data>
+  <data name="button35.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="button35.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1059,6 +1155,9 @@
   <data name="&gt;&gt;button35.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
+  <data name="button36.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="button36.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1085,6 +1184,9 @@
   </data>
   <data name="&gt;&gt;button36.ZOrder" xml:space="preserve">
     <value>11</value>
+  </data>
+  <data name="button37.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="button37.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1113,6 +1215,9 @@
   <data name="&gt;&gt;button37.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="button38.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="button38.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1139,6 +1244,9 @@
   </data>
   <data name="&gt;&gt;button38.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="button39.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="button39.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1167,6 +1275,9 @@
   <data name="&gt;&gt;button39.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="button40.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="button40.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1194,6 +1305,9 @@
   <data name="&gt;&gt;button40.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="button41.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
   <data name="button41.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
@@ -1220,6 +1334,9 @@
   </data>
   <data name="&gt;&gt;button41.ZOrder" xml:space="preserve">
     <value>4</value>
+  </data>
+  <data name="button42.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
   </data>
   <data name="button42.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
