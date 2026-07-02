@@ -60,5 +60,12 @@ namespace WindowsForms
 
             frmLabel.ShowDialog();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form frmButton = new frmButton();
+
+            frmButton.ShowDialog();
+        }
     }
 }

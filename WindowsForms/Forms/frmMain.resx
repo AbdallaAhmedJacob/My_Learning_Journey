@@ -195,9 +195,6 @@
   <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
     <value>39</value>
   </data>
-  <data name="button4.Enabled" type="System.Boolean, mscorlib">
-    <value>False</value>
-  </data>
   <data name="button4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
